@@ -41,23 +41,7 @@ const questions = [
   ]
     
   
-  // .then((answers) => {
-  //   // Use user feedback for... whatever!!
-  // })
-  // .catch((error) => {
-  //   if (error.isTtyError) {
-  //     // Prompt couldn't be rendered in the current environment
-  //     console.log('prompt couldnt be rendered in the current enviroment');
-  //   } else {
-  //     // Something else went wrong
-  //     console.log('something else went wrong');
-
-  //   }
-  // })
-
-
-// TODO: Create a function to write README file
-
+  
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions)
